@@ -20,12 +20,13 @@
 }
 
 .body_carte {
-    background-color: blue;
+    background-color: rgba(166, 208, 235, 0.528);
     display: flex;
     flex-direction: column;
+    border-radius: 4%;
     width: 80%;
-    height: 70%;
     margin: 10%;
+    padding: 5%;
     
     
 }
@@ -35,4 +36,16 @@
     grid-template-columns: 30% 30% 30%;
     
 }
+
+.img_desti {
+    max-height: 50vh;
+    border-radius: 4%;
+}
+.nom_destination {
+    font-family : Times, Times New Roman, serif;
+    font-size: 30px;
+    margin: 15px;
+
+}
+
 
