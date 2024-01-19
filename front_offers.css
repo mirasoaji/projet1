@@ -1,0 +1,73 @@
+body{margin:0;padding:0;font-family:Arial, Helvetica, sans-serif;width:auto;height:100vh;user-select:none;
+    background-color: lightgrey;}
+
+ul,li,ol{list-style-type:none;}
+
+.container-header {
+    width: auto;
+    height: 12vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5rem;
+}
+
+.container-section {
+    width: 90vw;
+    height: 110vh;
+    background-color: grey;
+    margin: auto;
+    margin-block: 2rem;
+}
+
+.container-footer {
+    width: auto;
+    height: 12vh;
+    background-color: burlywood;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-footer-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-section-space {
+    width: fit-content;
+    height: 1vh;
+}
+
+.container-section-offer1 {
+    width: 80vw;
+    height: 30vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    margin-inline: 5vw;
+    margin-block: 2vw;
+}
+
+.container-section-offer2 {
+    width: 80vw;
+    height: 30vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-inline: 5vw;
+    margin-block: 2vw;
+}
+
+.container-section-offer3 {
+    width: 80vw;
+    height: 30vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    margin-inline: 5vw;
+    margin-block: 2vw;
+}
